@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <title> Catalago Vaga de Emprego </title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+</head>
+
+<body>
+    <div>
+        <header id="cabecalho">
+            <h1> Vagas de Emprego </h1>
+            <!--Titulo -->
+            <h2> Novas Oportunidades de Emprego! </h2>
+            <!-- Subtitulo -->
+        </header>
+
+        <img id="icone" src="image/vagas-de-emprego-.jpg">
+        <!-- imagem de Vaga de Emprego -->
+
+        <section id="corpo">
+            <form method="post" action="cadastrar-vaga.php">
+                <select name="ANUNCIO">
+                    <option value="anunucio"> Data do Anúncio </option>
+                    <option value="24horas"> Últimas 24 Horas </option>
+                    <option value="3dias"> Últimos 3 Dias </option>
+                    <option value="7dias"> Últimos 7 Dias</option>
+                </select>
+
+                <select name="VAGA">
+                    <option value="vaga"> Tipo de Vaga </option>
+                    <option value="tempo"> Home Office Temporário </option>
+                    <option value="presencial"> Presencial </option>
+                </select>
+
+                <select name="SALARIO">
+                    <option value="salar"> Salário Estimado </option>
+                    <option value="1000"> R$1000,00 </option>
+                    <option value="3000"> R$3000,00 </option>
+                    <option value="5000"> R$5000,00 </option>
+                    <option value="10000"> R$10.000,00 </option>
+                </select>
+
+                <select name="ATUACAO">
+                    <option value="atua"> Vagas de Atuação </option>
+                    <option value="adm"> Administração </option>
+                    <option value="front"> Front-end </option>
+                    <option value="direito"> Direito </option>
+                    <option value="tradu"> Tradutora Interprete </option>
+                </select>
+
+                <select name="TIPO">
+                    <option value="tvaga"> Tipo de Vaga </option>
+                    <option value="integra"> Tempo Integral </option>
+                    <option value="efetivo"> Efetivo </option>
+                    <option value="meio"> Meio Periodo </option>
+                    <option value="estagio"> Estagio </option>
+                    <option value="jovem"> Jovem Aprendiz </option>
+                </select>
+
+                <input type="submit" value="Buscar" />
+            </form>
+
+            <form id="contato" method="vagash1">
+                <fieldset id="vaga1">
+                    <h2>
+                        Auxiliar Administrativo
+                    </h2>
+                    <p>
+                        <label for="cidade"> 
+                            <h4>
+                                São Paulo, SP
+                            </h4>
+                            <h4>
+                                R$ 1.300 - R$ 1.700 por mês
+                            </h4> 
+                        </label>
+
+                    </p>
+
+                    <p>
+                        <h5>
+                            <b>
+                                &#8208; Responsabilidades e atribuições
+                            </b>
+                            <p>
+                                &#8226; Efetuar contato ativo ou receptivo, antecipando às necessidades dos clientes, com isso evitar que reclamações futuras aconteçam, além de promover sua fidelização;
+                            </p>
+                            <p>
+                                &#8226; Acompanhamento de relatório de transações, realizando contato ativo prestando suporte sempre que necessário; Abertura de chamados direcionando clientes para o suporte avançado;
+                            </p>
+                        </h5>
+                        <h6>
+                            Há 24 horas
+                        </h6>
+                        <button> 
+                            Candidatar-se 
+                        </button>
+                    </p>
+                </fieldset>
+
+                <fieldset id="vaga2">
+                    <h2>
+                        Estágio em Direito
+                    </h2>
+                    <p>
+                        <label for="cidade"> 
+                            <h4>
+                                São Paulo, SP
+                            </h4>
+                            <h4>
+                                Informação Não Disponivél
+                            </h4> 
+                        </label>
+
+                    </p>
+
+                    <p>
+                        <h5>
+                            <b>
+                                &#8208; Responsabilidades e atribuições
+                            </b>
+                            <p>
+                                &#8226; Suporte aos Advogados nas demandas de processos
+                            </p>
+                            <p>
+                                &#8226; Realização de protocolos simples;
+                            </p>
+                            <p>
+                                &#8226; Cumprimento de prazos.
+                            </p>
+                            <p>
+                                &#8226; Diligências nos Fóruns e Órgãos da capital paulista
+                            </p>
+                        </h5>
+                        <h6>
+                            Há 5 dias
+                        </h6>
+                        <button> 
+                            Candidatar-se 
+                        </button>
+                    </p>
+                </fieldset>
+
+                <fieldset id="vaga3">
+                    <h2>
+                        Front End Developer
+                    </h2>
+                    <p>
+                        <label for="cidade"> 
+                            <h4>
+                                Ribeirão Preto, SP
+                            </h4>
+                            <h4>
+                                R$ 3.500 - R$ 5.700 por mês
+                            </h4> 
+                        </label>
+
+                    </p>
+
+                    <p>
+                        <h5>
+                            <b>
+                                &#8208; Responsabilidades e atribuições
+                            </b>
+                            <p>
+                                &#8226; Desenvolvimento de websites responsivos;
+                            </p>
+                            <p>
+                                &#8226; Manutenção em projetos existentes.
+                            </p>
+                        </h5>
+                    </p>
+                    <h6>
+                        Há 1 mês
+                    </h6>
+                    <button> 
+                        Candidatar-se 
+                    </button>
+                </fieldset>
+
+                <footer id="rodape">
+                    <p>
+                        Copyright 2021 - by Isabela Simei
+                    </p>
+                </footer>
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>

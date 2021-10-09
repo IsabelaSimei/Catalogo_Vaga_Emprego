@@ -1,0 +1,127 @@
+/* configuração do elemento body */
+
+body {
+    background-color: #fcf8f8;
+    /* cor de fundo */
+    font-family: Arial, Helvetica, sans-serif;
+    /* fonte */
+    color: #000000;
+    /* cor do texto */
+}
+
+
+/*  configuração do elemento com id cabeçalho */
+
+#cabecalho {
+    height: 100px;
+    /* altura */
+    text-align: center;
+}
+
+#icone {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 790px;
+    margin-left: 250px;
+}
+
+
+/* configura estilo do cabeçalho */
+
+#cabecalho h1 {
+    font-size: 20pt;
+    color: #000000;
+    padding: 0px;
+    margin-bottom: 0px;
+    left: 340px;
+    /* desloca para direita */
+}
+
+
+/* configura estilo da vaga */
+
+#vagas1 {
+    padding: 1%;
+    margin-bottom: 0px;
+}
+
+#contato {
+    width: 800px;
+    weight: 200px;
+}
+
+
+/* configura h2 do header */
+
+#cabecalho h2 {
+    font-size: 10pt;
+    color: #000000;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+#corpo {
+    padding: 0px 100px 100px 250px;
+    float: center;
+    position: relative;
+    /* posição atual da foto */
+    top: 60px;
+    /* desloca para cima */
+    left: 0px;
+    /* desloca para direita */
+}
+
+#mais {
+    float: left;
+    width: 300px;
+    margin: 100px 0px 0px 50px;
+}
+
+#sobress {
+    float: right;
+    width: 400px;
+    margin: 50px 30px 0px 0px;
+}
+
+#lateral {
+    float: right;
+    width: 300px;
+    padding: 10px;
+    background-color: #ddd;
+    margin-top: 10px;
+}
+
+#rodape {
+    clear: both;
+    /* procura a primeira regiao livre em baixo e para a esquerda*/
+    border-top: 0px solid #606060;
+}
+
+#rodape p {
+    padding-top: 15px;
+    text-align: center;
+}
+
+#lateral h1 {
+    font-size: 20pt;
+    color: #606060;
+    margin-top: 0px;
+    /* espaçamento externo superior */
+}
+
+#lateral h2 {
+    font-size: 15px;
+    color: #fff;
+    padding: 5px;
+    background-color: #606060;
+    /* background voce personalisa o fundo com uma foto, mais opçoes de fundo, background-color apenas com cor */
+}
+
+
+/* elemento p */
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
